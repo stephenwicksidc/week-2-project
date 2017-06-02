@@ -1,0 +1,27 @@
+body {
+font-family: 'PT Sans', sans-serif;
+}
+p {
+  color: #0B1942;
+}
+h2 {
+  background-color: #0B1942;
+  color: #ffffff;
+}
+#logo {
+  background-color: #0B1942;
+}
+#mainwrapper {
+  width: 1250vw;
+}
+nav {
+  background-color: #7DDFE8;
+  height: 75px;
+}
+a {
+  color: #000000;
+  font-size: 20pt;
+}
+nav a {
+  color: #ffffff;
+}
