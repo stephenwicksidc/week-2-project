@@ -12,16 +12,120 @@ h2 {
   background-color: #0B1942;
 }
 #mainwrapper {
-  width: 1250vw;
+  width: 100vw;
 }
 nav {
   background-color: #7DDFE8;
-  height: 75px;
+  height: 120px;
 }
 a {
   color: #000000;
   font-size: 20pt;
 }
-nav a {
-  color: #ffffff;
+#logo {
+  background-image: url("file:///Users/stephenwicks/ironyard/front_end_fundamentals/week-two-project/images/filmclub.png");
+  background-color: #F5005B;
+  background-size: contain;
+  width: 100px;
+  height: 120px;
+}
+#desktopnavbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#desktopnavbar > div {
+  height: 120px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+#desktopnavbar > div > a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 14pt;
+}
+#desktophomelink {
+  background-color: #00A5BF;
+  justify-content: center;
+}
+#desktopcalendarlink {
+  background-color: #00B7D3;
+  justify-content: center;
+}
+#desktopjoinlink {
+  background-color: #00D5E7;
+  justify-content: center;
+}
+#desktoprow1 {
+  display: flex;
+  background-color: white;
+  padding: 0px 10px 10px 10px;
+}
+#desktoprow1 > div {
+  flex: 1;
+  padding: 10px;
+}
+.title {
+  padding: 10px;
+  background-color: #172342;
+  color: white;
+}
+.headingh1 {
+  padding: 10px 10px 0px 20px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  color: #0B1942;
+}
+#desktoprow2 {
+  background-color: #0B1942;
+  height: 600px;
+}
+div > h2 {
+  padding: 20px;
+}
+#desktoprow2 > div {
+  width: 100%;
+
+}
+#desktoprow2-inner {
+  display: flex;
+  justify-content: center;
+}
+#desktoprow2-inner > div {
+  background-color: #e1e1e1;
+  height: 450px;
+  width: 50%;
+  margin: 0px 20px 0px 20px;
+}
+#desktopnavbar-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+#desktopnavbar-bottom > div {
+  height: 120px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+#desktopnavbar-bottom > div > a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 14pt;
+}
+#desktophomelink-bottom {
+  background-color: #00A5BF;
+  justify-content: center;
+}
+#desktopcalendarlink-bottom {
+  background-color: #00B7D3;
+  justify-content: center;
+}
+#desktopjoinlink-bottom {
+  background-color: #00D5E7;
+  justify-content: center;
 }
